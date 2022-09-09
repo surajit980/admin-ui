@@ -1,0 +1,147 @@
+/* full body style------------------------------------------------------------------- */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color:#899CA0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* app component style--------------------------------------------------------------- */
+.app{
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.bottom-app{
+  height: 15%;
+  display: flex;
+  align-items: center;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* searchbar component style--------------------------------------------------------- */
+.search-container{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.search-inp{
+  padding: 5px 5px;
+  border: 0.5px solid #cbc5c5;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* users component style------------------------------------------------------------- */
+.users-container{
+  height: 75%;
+}
+.user-row{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #899CA0;
+  padding: 10px;
+}
+.user-row:hover{
+  background-color: #F2FCFF;
+}
+input[type=checkbox] {
+  cursor: pointer;
+}
+.col-h{
+ font-weight: bold; 
+}
+.col{
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  width: 20%;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* Delete component style------------------------------------------------------------ */
+.delete-container{
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+.delete-container button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* pagination component style --------------------------------------------------------*/
+.pagination-container{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.page-number{
+  cursor: pointer;
+  font-size: 18px;
+  margin:0px 5px;
+  color: white;
+  padding: 5px 14px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.page-number:hover{
+  background-color: #F5F5F5;
+  color: black;
+  border: 0.5px solid #cbc5c5;
+}
+.active{
+  background-color: #F5F5F5;
+  color: black;
+  border: 0.5px solid #cbc5c5;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* edit component style-------------------------------------------------------------- */
+.edit{
+  width: 300px;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #F2FCFF;
+  border: 1px solid black;
+  margin: auto;
+}
+.edit div{
+  margin: 10px 0px;
+}
+.edit-inp{
+  width: 100%;
+  outline: none;
+}
+.edit-save-btn{
+  background-color: blue;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* ---------------------------------------------------------------------------------- */
